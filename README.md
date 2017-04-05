@@ -1,0 +1,2 @@
+# CommonAdapter
+一个通用的RecyclerView适配器封装

@@ -1,1 +1,1 @@
-include ':app', ':gcommonadapter', ':library'
+include ':app', ':library'

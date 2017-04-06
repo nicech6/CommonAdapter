@@ -4,6 +4,7 @@ v1.0.0
 ## 如何使用
 ### 在你当前项目build.gradle下增加一下代码
 allprojects {
+
     repositories {
         jcenter()
         maven { url 'https://jitpack.io' }

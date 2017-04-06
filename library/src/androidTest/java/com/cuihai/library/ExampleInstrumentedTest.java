@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.cuihai.library", appContext.getPackageName());
+        assertEquals("com.cuihai.library.test", appContext.getPackageName());
     }
 }

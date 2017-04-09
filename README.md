@@ -1,8 +1,7 @@
 # CommonAdapter
-v1.0.0
-一个通用的RecyclerView适配器封装,这周末抽时间详细描述
-## 如何使用
-### 在你当前项目build.gradle下增加一下代码
+v2.0.1
+A generic RecyclerView adapter package
+### 1) In your root build.gradle:
 allprojects {
 
     repositories {
@@ -10,5 +9,31 @@ allprojects {
         maven { url 'https://jitpack.io' }
     }
 }
-### 最后在dependencies 下引用
-compile 'com.github.icuihai.CommonAdapter:app:v1.0'
+### 2) In your library/build.gradle add:
+compile 'com.github.icuihai.CommonAdapter:app:v2.0.1'
+## Usage 
+<pre><code> adapter = new GCommonRVAdapter<String>(this, R.layout.item_rv, list) {
+            @Override
+            public void convert(GViewHolder gViewHolder, String s, int position) {
+                gViewHolder.setText(R.id.tv, list.get(position).toString());
+            }
+        };
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+</code></pre>
+*T is you Entity class*
+## License
+Copyright 2017 icuihai.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+

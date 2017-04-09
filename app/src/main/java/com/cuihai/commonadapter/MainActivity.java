@@ -5,6 +5,10 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 
+import com.cuihai.library.GCommonRVAdapter;
+import com.cuihai.library.GRecyclerView;
+import com.cuihai.library.GViewHolder;
+
 import java.util.ArrayList;
 import java.util.List;
 

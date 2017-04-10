@@ -24,6 +24,9 @@ compile 'com.github.icuihai.CommonAdapter:app:v2.0.1'
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 </code></pre>
 *T is you Entity class*
+## About Me
+weibo <weibo.com/icuihai>
+gmail icuihai@gmail.com
 ## License
 Copyright 2017 icuihai.
 

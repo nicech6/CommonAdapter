@@ -10,7 +10,9 @@ allprojects {
     }
 }
 ### 2) In your library/build.gradle add:
+<pre><code>
 compile 'com.github.icuihai.CommonAdapter:app:v2.0.1'
+</code></pre>
 ## Usage 
 <pre><code> adapter = new GCommonRVAdapter<String>(this, R.layout.item_rv, list) {
             @Override

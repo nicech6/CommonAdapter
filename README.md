@@ -25,7 +25,7 @@ compile 'com.github.icuihai.CommonAdapter:app:v2.0.1'
 </code></pre>
 *T is you Entity class*
 ## About Me
-weibo <http://www.weibo.com/icuihai>
+weibo <https://www.weibo.com/icuihai>
 
 gmail icuihai@gmail.com
 ## License

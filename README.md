@@ -14,7 +14,7 @@ allprojects {
 compile 'com.github.icuihai.CommonAdapter:app:v2.0.1'
 </code></pre>
 ## Usage 
-<pre><code> adapter = new GCommonRVAdapter<String>(this, R.layout.item_rv, list) {
+<pre><code> adapter = new GCommonRVAdapter<T>(this, R.layout.item_rv, list) {
             @Override
             public void convert(GViewHolder gViewHolder, T bean, int position) {
                 gViewHolder.setText(R.id.tv, list.get(position).toString());
@@ -27,7 +27,7 @@ compile 'com.github.icuihai.CommonAdapter:app:v2.0.1'
 ## About Me
 weibo : <https://www.weibo.com/icuihai>
 
-gmail : icuihai@gmail.com
+gmail  : icuihai@gmail.com
 ## License
 Copyright 2017 icuihai.
 
